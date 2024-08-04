@@ -9,9 +9,7 @@ User.create!(
       first_name: "John",
       last_name: "Doe",
       date_of_birth: "1985-01-15",
-      gender: "Male",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Male"
     },
     {
       email: "jane.smith@example.com",
@@ -19,9 +17,7 @@ User.create!(
       first_name: "Jane",
       last_name: "Smith",
       date_of_birth: "1990-04-22",
-      gender: "Female",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Female"
     },
     {
       email: "michael.johnson@example.com",
@@ -29,9 +25,7 @@ User.create!(
       first_name: "Michael",
       last_name: "Johnson",
       date_of_birth: "1978-08-30",
-      gender: "Male",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Male"
     },
     {
       email: "emily.davis@example.com",
@@ -39,9 +33,7 @@ User.create!(
       first_name: "Emily",
       last_name: "Davis",
       date_of_birth: "1989-12-05",
-      gender: "Female",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Female"
     },
     {
       email: "daniel.miller@example.com",
@@ -49,9 +41,7 @@ User.create!(
       first_name: "Daniel",
       last_name: "Miller",
       date_of_birth: "1983-03-12",
-      gender: "Male",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Male"
     },
     {
       email: "sophia.brown@example.com",
@@ -59,9 +49,7 @@ User.create!(
       first_name: "Sophia",
       last_name: "Brown",
       date_of_birth: "1992-07-16",
-      gender: "Female",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Female"
     },
     {
       email: "james.wilson@example.com",
@@ -69,9 +57,7 @@ User.create!(
       first_name: "James",
       last_name: "Wilson",
       date_of_birth: "1987-11-23",
-      gender: "Male",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Male"
     },
     {
       email: "olivia.moore@example.com",
@@ -79,9 +65,7 @@ User.create!(
       first_name: "Olivia",
       last_name: "Moore",
       date_of_birth: "1994-09-18",
-      gender: "Female",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Female"
     },
     {
       email: "william.taylor@example.com",
@@ -89,9 +73,7 @@ User.create!(
       first_name: "William",
       last_name: "Taylor",
       date_of_birth: "1980-05-07",
-      gender: "Male",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Male"
     },
     {
       email: "ava.anderson@example.com",
@@ -99,9 +81,7 @@ User.create!(
       first_name: "Ava",
       last_name: "Anderson",
       date_of_birth: "1995-02-14",
-      gender: "Female",
-      created_at: Time.now,
-      updated_at: Time.now
+      gender: "Female"
     }
   ]
 )
@@ -119,9 +99,7 @@ Business.create!(
       city: "San Francisco",
       country: "USA",
       postal_code: "94107",
-      user_id: user_ids[0],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[0]
     },
     {
       name: "Green Gardens",
@@ -132,9 +110,7 @@ Business.create!(
       city: "Toronto",
       country: "Canada",
       postal_code: "M5V 2T6",
-      user_id: user_ids[1],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[1]
     },
     {
       name: "Blue Ocean Foods",
@@ -145,9 +121,7 @@ Business.create!(
       city: "Sydney",
       country: "Australia",
       postal_code: "2000",
-      user_id: user_ids[2],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[2]
     },
     {
       name: "Mountain Peaks",
@@ -158,9 +132,7 @@ Business.create!(
       city: "Zermatt",
       country: "Switzerland",
       postal_code: "3920",
-      user_id: user_ids[3],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[3]
     },
     {
       name: "Urban Coffee",
@@ -171,9 +143,7 @@ Business.create!(
       city: "Tokyo",
       country: "Japan",
       postal_code: "100-0001",
-      user_id: user_ids[4],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[4]
     },
     {
       name: "Tech Innovators",
@@ -184,9 +154,7 @@ Business.create!(
       city: "Dublin",
       country: "Ireland",
       postal_code: "D02 R244",
-      user_id: user_ids[5],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[5]
     },
     {
       name: "Healthy Living",
@@ -197,9 +165,7 @@ Business.create!(
       city: "Cape Town",
       country: "South Africa",
       postal_code: "8001",
-      user_id: user_ids[6],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[6]
     },
     {
       name: "Fashion Forward",
@@ -210,9 +176,7 @@ Business.create!(
       city: "Paris",
       country: "France",
       postal_code: "75001",
-      user_id: user_ids[7],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[7]
     },
     {
       name: "Global Travels",
@@ -223,9 +187,7 @@ Business.create!(
       city: "Los Angeles",
       country: "USA",
       postal_code: "90001",
-      user_id: user_ids[8],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[8]
     },
     {
       name: "Creative Studios",
@@ -236,9 +198,7 @@ Business.create!(
       city: "Berlin",
       country: "Germany",
       postal_code: "10178",
-      user_id: user_ids[9],
-      created_at: Time.now,
-      updated_at: Time.now
+      user_id: user_ids[9]
     }
   ]
 )
